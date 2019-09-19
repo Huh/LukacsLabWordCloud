@@ -56,7 +56,7 @@
     
 ################################################################################
     #  Build wordcloud using wordcloud2 htmlwidget
-    wordcloud2(wrd_dat, size = 1, minRotation = -pi/2, maxRotation = -pi/2)
+    # wordcloud2(wrd_dat, size = 1, minRotation = -pi/2, maxRotation = -pi/2)
     
     #  Build it again this time creating a PNG suitable for high res
     png(
