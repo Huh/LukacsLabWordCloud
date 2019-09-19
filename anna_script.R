@@ -12,3 +12,4 @@ dat <- tibble(name = "Anna",
               )
         )
 save(dat, file = paste(here::here(), "data/moeller.RData", sep = "/"))
+ 
