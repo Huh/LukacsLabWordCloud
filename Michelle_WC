@@ -1,4 +1,4 @@
-#  Michelle words
+#  Michelle word cloud
 
 require(tibble)
 
