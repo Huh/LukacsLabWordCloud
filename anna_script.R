@@ -9,7 +9,8 @@ dat <- tibble::tibble(name = "Anna",
                 "spatiotemporal", "habitat quality", "spatial scale", "spaceNtime",
                 "population dynamics", "harvest", "conservation", "private lands", 
                 "collars", "JAGS"
-              )
+              ),
+              freq = 1
         )
 save(dat, file = paste(here::here(), "data/moeller.RData", sep = "/"))
  
