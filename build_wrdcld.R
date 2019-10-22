@@ -35,6 +35,8 @@
         mutate(
           word = replace(word, word == "time to event", "time-to-event"),
           word = replace(word, word == "bayesian", "Bayesian"),
+          word = replace(word, word == "dna", "DNA"),
+          word = replace(word, word == "palisades", "Palisades"),
           word = replace(
             word,
             word %in% tolower(state.name),
@@ -60,7 +62,7 @@
     
     #  Build it again this time creating a PNG suitable for high res
     png(
-      "C:/Users/josh.nowak/Documents/Lab/word_cloud_img.png", 
+      "output/word_cloud_img.png", 
       height = 10, 
       width = 17, 
       units = "in", 
