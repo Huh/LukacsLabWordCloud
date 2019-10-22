@@ -3,11 +3,11 @@ require(tibble)
 
 dat <- tibble(
   Name = "Gus",
-  Words = c("Abundance", "Camera Trap", "Ratios", "TRI", "Sightability",
-            "Distance Sampling", "Mule Deer", "White-tailed Deer", "Elk",
-            "Field Work"
+  Words = c("abundance", "camera trap", "ratios", "TRI", "sightability",
+            "distance sampling", "mule deer", "white-tailed deer", "elk",
+            "field work"
   ),
   freq = 1
 )
 
-save(dat, file = "C:/Users/ag236526/Documents/GitHub/LukacsLabWordCloud/gus.RData")
+save(dat, file = "~/GitHub/LukacsLabWordCloud/data/gus.RData")

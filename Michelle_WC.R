@@ -7,7 +7,8 @@ dat <- tibble(
   word = c("Alaska", "murrelet", "glaciers", "ocean", "viability",
             "climate", "uncertainty", "estimation", "population dynamics",
             "adaptation", "bottom-up", "top-down" 
-  )
+  ),
+  freq = 1
 )
 
 save(dat, file = "~/GitHub/LukacsLabWordCloud/data/kissling.RData")
